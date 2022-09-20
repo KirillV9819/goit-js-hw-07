@@ -2,9 +2,9 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
 const galleryRef = document.querySelector(".gallery");
-const markUp = createMarkUp(galleryItems);
+const galleryMarkUp = createMarkUp(galleryItems);
 
-galleryRef.insertAdjacentHTML("beforeend", markUp);
+galleryRef.insertAdjacentHTML("beforeend", galleryMarkUp);
 galleryRef.addEventListener("click", onGalleryClick)
 
 function createMarkUp(galleryItems) {
